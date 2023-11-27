@@ -1,0 +1,38 @@
+html {
+    background-image: url(/project2/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.75;
+}
+
+header{
+    color: black;
+}
+.navul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px 0 120px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
